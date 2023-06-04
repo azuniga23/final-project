@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+  </head>
+
+  <!--Bootstrap style-->
+  <div class="container">
+    <span id="rateMe2" class="empty-stars"></span>
+  </div>
+  <div>
+    <a href="index.html">Destinations</a>
+    <a href="book.html">Bookings</a>
+  </div>
+  <!-- rating.js file -->
+  <script src="js/addons/rating.js"></script>
+  <body class="container">
+    <div id="new-destination" class="jumbotron jumbotron-fluid">
+      <div class="jumbotron">
+        <h1 class="display-4">Bookings</h1>
+
+        <hr class="my-4" />
+        <p>Like us on Facebook, Instagram, or Youtube!</p>
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Follow us on Facebook</a
+          >
+          <span id="rateMe2" class="empty-stars"></span>
+        </p>
+      </div>
+      <!-- CSS stle below-->
+      <center>
+        <h1 style="color: rgb(0, 255, 217)">
+          Book your flight and hotel here!
+        </h1>
+      </center>
+      <h2>Cancun plus a 5 star hotel!</h2>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcyzyZQOGuUiAJ_cJgKlOh5xDYs7VMwGl48w&usqp=CAU"
+      />
+      <br />
+      <button id="create-new-place" class="btn btn-primary form-control">
+        Book now!
+      </button>
+      <h2>Egypt!</h2>
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7VvAbFw8Mxc9f79puoChrHY9qi6r-DxN_uA&usqp=CAU"
+      />
+      <br />
+
+      <input type="text" id="new-destination-name" class="form-control" />
+      <br />
+      <button id="create-new-place" class="btn btn-primary form-control">
+        Book now!
+      </button>
+      <h1>Your favorite places are saved here!</h1>
+    </div>
+
+    <div id="app">
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="index.js"></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    </div>
+  </body>
+</html>
